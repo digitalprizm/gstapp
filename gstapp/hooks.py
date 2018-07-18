@@ -82,6 +82,9 @@ app_license = "MIT"
 doc_events = {
 	"Sales Invoice": {
 		"validate": "gstapp.api.get_item_wise_tax"
+	},
+	"Purchase Invoice": {
+		"validate": "gstapp.api.get_item_wise_tax"
 	}
 }
 # doc_events = {
