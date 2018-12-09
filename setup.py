@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
-#import re, ast
+import re, ast
 
 try: # for pip >= 10
     from pip._internal.req import parse_requirements
